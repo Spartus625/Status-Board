@@ -120,6 +120,8 @@ class Cells(QWidget):
     ):
         super().__init__()
 
+        self.setFixedSize(626, 60)
+
         layout = QHBoxLayout()  # cell frame layout to include cell number, and inmate name
         layout.setContentsMargins(0, 0, 0, 0)
         layout.setSpacing(0)
